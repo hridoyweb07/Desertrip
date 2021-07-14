@@ -3,6 +3,8 @@
      body{
         font-family: 'Source Sans Pro', sans-serif;
      }
+    
+
 
 
 
@@ -83,9 +85,9 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-   
     background-position: center;
     background-size: cover;
+    transition: transform 0.5s;
 }
 .card1{
     background-image: url(images/1.jpg);
@@ -98,4 +100,16 @@ button{
 }
 .card4{
     background-image: url(images/4.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: beige;
+    text-shadow: 0 0 5px blueviolet ;
+}
+. card p{
+    text-shadow:0 0 15 aqua ;
+    font-size: 8px;
 }
